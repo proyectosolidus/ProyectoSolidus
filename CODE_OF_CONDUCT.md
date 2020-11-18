@@ -74,3 +74,4 @@ Si crees que las medidas que se han adoptado no han sido justas puedes comunicar
 
 - [medellincss](https://github.com/medellincss/codigo-de-conducta)
 - [PEUM](https://github.com/ProgramarEsUnaMierda/peum/blob/master/C%C3%B3digo%20de%20conducta.md)
+- [JSDay Canarias](https://jsdaycanarias.com/code-of-conduct)
