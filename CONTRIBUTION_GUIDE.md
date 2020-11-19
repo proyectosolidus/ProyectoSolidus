@@ -1,10 +1,10 @@
 # Guía de contribución
 
 ## ¿Cómo puedo unirme?
-Si deseas colaborar puedes inscribirte en el [formulario](https://docs.google.com/forms/d/e/1FAIpQLSdvnnTbpeFz1PTkVl5vDIrfWjP-TeDhZGFzpy5aB-d0OzZk5g/viewform). Unos de los administrados se pondrá en contacto contigo y te invitará al Slack.
+Si deseas colaborar puedes inscribirte en el [formulario](https://docs.google.com/forms/d/e/1FAIpQLSdvnnTbpeFz1PTkVl5vDIrfWjP-TeDhZGFzpy5aB-d0OzZk5g/viewform). Unos de los administradoress se pondrá en contacto contigo y te invitará al Slack.
 
-## Que implica colaborar en este proyecto
-Si deseas colaborar debes, ante todo, seguir el Código de conducta. Ayúdanos a hacer del Proyecto Solidus una comunidad abierta e inclusiva. Por favor, lee y sigue el [Código de Conducta](https://github.com/proyectosolidus/ProyectoSolidus/blob/main/CODE_OF_CONDUCT.md).
+## ¿Qué implica colaborar en este proyecto?
+Si deseas colaborar debes, ante todo, seguir el Código de Conducta. Ayúdanos a hacer del Proyecto Solidus una comunidad abierta e inclusiva. Por favor, lee y sigue el [Código de Conducta](https://github.com/proyectosolidus/ProyectoSolidus/blob/main/CODE_OF_CONDUCT.md).
 
 ## Para empezar
 1. Crea un [fork](https://docs.github.com/es/free-pro-team@latest/github/getting-started-with-github/fork-a-repo) de este repositorio
