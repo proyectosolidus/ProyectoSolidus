@@ -13,8 +13,8 @@ const Home = () => {
 					<h1>Proyecto Solidus <br/>Soluciones para ONG's</h1>
 					<p></p>
 					<div className="Home__hero-content-buttons">
-						<Link to="#contacto" className="primary-btn">Comenzar <b>gratis</b></Link>
-					 	<Link to="#acerca" className="secundary-btn">Acerca</Link>
+						<Link to="#contacto" className="hero-content-button primary-btn">Comenzar <b>gratis</b></Link>
+					 	<Link to="#acerca" className="hero-content-button secundary-btn">Acerca</Link>
 					</div>
 				</div>
 				<div className="Home__hero-image">
