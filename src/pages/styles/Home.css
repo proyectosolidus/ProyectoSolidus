@@ -1,11 +1,15 @@
+/* -------- HERO ----------*/
+
 .Home__hero {
-	height: 500px;
-	justify-content: center;
-	align-items: center;
 	background-color: #bee5d3;
+  height: 60vh;
+}
+
+.Home__hero_container {
+  align-items: center;
+  background-color: #bee5d3;
   display: grid;
   grid-template-columns: 2fr 40%;
-  justify-items: center;
 }
 
 .Home__hero-content h1 {
@@ -15,6 +19,10 @@
 
 .Home__hero-content-buttons {
   margin-top: 2rem;
+}
+
+.Home__hero-content-buttons b {
+  color: white;
 }
 
 .Home__hero-image img {
@@ -50,10 +58,13 @@
 }
 
 @media screen and (max-width: 767px) {
-  .Home__hero {
+  .Home__hero_container {
     height: auto;
-    padding: 2rem;
     grid-template-columns: 1fr;
+  }
+
+  .Home__hero-content-buttons {
+    margin-bottom: 2rem;
   }
 
   .Home__hero-image  {
@@ -82,3 +93,4 @@
     font-size: 1.5rem;
   }
 }
+

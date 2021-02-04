@@ -4,6 +4,13 @@
 	margin: 0;
 	padding: 0;
 	font-family: 'Poppins', sans-serif;
+  color: #312c51;
+}
+
+.box-wrapper {
+  display: grid;
+  grid-template-columns: 80vw;
+  justify-content: center;
 }
 
 .primary-btn {
