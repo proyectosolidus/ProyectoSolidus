@@ -1,6 +1,8 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
+import ContacForm from '../components/ContactForm'
+
 import HeroImage from '../images/hero-image.svg'
 import AboutImage from '../images/about-image.svg'
 import './styles/Home.css'
@@ -60,6 +62,8 @@ const Home = () => {
 					</div>
 				</div>
 			</section>
+
+			<ContacForm />
 
 		</React.Fragment>
 
