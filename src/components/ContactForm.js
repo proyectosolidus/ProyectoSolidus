@@ -6,7 +6,7 @@ import './styles/ContactForm.css'
 const useForm = () => {
 	const [formState, setFormState] = useState({form: {
 			name: '',
-			ongName: 'Unicef',
+			ongName: '',
 			email: '',
 			emailBody: ''
 		}})
@@ -42,18 +42,18 @@ const ContactForm = () => {
 				<form className="Contact-form">
 
 					<label for="name">Nombre</label>
-					<input onChange={handleChange} value={formState.name} id="name" type="text" name="name" />
+					<input onChange={handleChange} value={formState.form.name} id="name" type="text" name="name" />
 
 					<label for="">Nombre de la organización</label>
-					<input onChange={handleChange} value={formState.ongName} id="" type="text" name="ongName" />
+					<input onChange={handleChange} value={formState.form.ongName} id="" type="text" name="ongName" />
 
-					<label for="email">Correo</label>
-					<input onChange={handleChange} value={formState.email} size="25" id="email" type="email" name="email" />
+					<label for="email">Correo Electronico</label>
+					<input onChange={handleChange} value={formState.form.email} size="25" id="email" type="email" name="email" />
 
-					<label for="emailBody">Cuentanos un poco sobre {formState.ongName}</label>
-					<textarea onChange={handleChange} value={formState.emailBody} name="emailBody" placeholder={`¿Quien eres, que hace ${formState.ongName} y como podemos ayudarles?`} id="emailBody" type="text-area" className="ong-descrption"></textarea>
+					<label for="emailBody">Cuentanos un poco sobre {formState.form.ongName}</label>
+					<textarea onChange={handleChange} value={formState.form.emailBody} name="emailBody" placeholder={`¿Quien eres, que hace ${formState.form.ongName} y como podemos ayudarles?`} id="emailBody" type="text-area" className="ong-descrption"></textarea>
 
-					<button submit="none" className="primary-btn Contact-form-button">ENVIAR</button>
+					<button type="button" className="primary-btn Contact-form-button">ENVIAR</button>
 
 				</form>
 			</section>
