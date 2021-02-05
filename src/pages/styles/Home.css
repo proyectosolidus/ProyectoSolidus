@@ -133,3 +133,35 @@
   font-size: 1.2rem;
 }
 
+/*-------- JOIN -------------*/
+
+.Home__join {
+  background-color: #bee5d3;
+}
+
+.Home__join_container {
+  display: grid;
+  justify-items: center;
+  grid-auto-flow: row;
+  align-items: center;
+  grid-gap: 1rem;
+  background-color: #bee5d3;
+  padding: 2rem;
+}
+
+.Home__join h2 {
+  font-size: 2rem;
+}
+
+.Home__join p {
+  font-size: 1.2rem;
+}
+
+.Home__join-button {
+  margin-bottom: 1rem;
+}
+
+.Home__join-button a {
+  width: 100%;
+}
+

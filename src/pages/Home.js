@@ -47,7 +47,19 @@ const Home = () => {
 				</div>
 			</section>
 
-			
+			<section className="Home__join">
+				<div className="box-wrapper">
+					<div className="Home__join_container">
+						<h2>Se parte del Proyecto Solidus</h2>
+						<p>
+							Unetenos y ayudanos a ser mejores
+						</p>
+						<div className="marg-t Home__join-button">
+							<Link to="/unirse" className="primary-btn">Unirse</Link>
+						</div>
+					</div>
+				</div>
+			</section>
 
 		</React.Fragment>
 
