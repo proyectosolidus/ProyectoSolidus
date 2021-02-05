@@ -2,7 +2,6 @@
 
 .Home__hero {
 	background-color: #bee5d3;
-  height: 60vh;
 }
 
 .Home__hero_container {
@@ -10,6 +9,7 @@
   background-color: #bee5d3;
   display: grid;
   grid-template-columns: 2fr 40%;
+  height: 90vh;
 }
 
 .Home__hero-content h1 {
@@ -92,5 +92,44 @@
   .Home__hero-content h1 {
     font-size: 1.5rem;
   }
+}
+
+/* -------- ABOUT ----------*/
+
+.Home__about_container {
+  display: grid;
+  grid-template-columns: 40% 1fr;
+  margin: 3rem 0 3rem;
+  align-items: center;
+  grid-gap: 4rem;
+  height: 90vh;
+} 
+
+.Home__about-info {
+  grid-column: 2/3;
+}
+
+.Home__about-info h2 {
+  padding: .5rem;
+  color: #312c51;
+  border: 3px solid #312c51;
+  width: max-content;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  box-shadow: 17px 15px 0px 5px #6C63FF;
+}
+
+.Home__about-image {
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+
+.Home__about-image img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.Home__about-info p {
+  font-size: 1.2rem;
 }
 
