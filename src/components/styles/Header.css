@@ -1,0 +1,53 @@
+.Header {
+	display: flex;
+	padding: .5rem;
+	align-items: center;
+	justify-content: space-between;
+	background-color: #bee5d3;
+}
+
+.Header__home {
+	width: 4rem;
+	height: 4rem;
+	padding: 1rem;
+	border-radius: 100px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.Header__home:hover {
+	background-color: #6C63FF;
+	color: white;
+}
+
+.Header__nav a {
+	text-decoration: none;
+	font-size: 1.1rem;
+	margin-left: 2rem;
+	color: #312c51;
+}
+
+.Header__nav a:hover {
+	text-decoration: underline;
+}
+
+@media screen and (max-width: 600px) {
+	.Header {
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.Header__nav {
+		gap: 2rem;
+		display: flex;
+		margin-top: 1rem;
+	}
+
+	.Header__nav a {
+		margin: 0;
+	}
+}
