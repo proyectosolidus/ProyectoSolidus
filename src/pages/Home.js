@@ -31,21 +31,19 @@ const Home = () => {
 			</section>
 			
 
-			<section className="Home__about">
-				<div className="box-wrapper">
-					<div className="Home__about_container">
-						<div className="Home__about-info">
-							<h2>
-								¿Que es el Proyecto Solidus?
-							</h2>
-							<p>
-								El proyecto solidus es una asociación de voluntarios que ofrece, de manera totalmente altruista, servicios de desarrollo web a ONGs, protectoras, etc. que carecen de la financiación para ello. Principalmente buscamos ofrecer servicios con calidad profesional a asociaciones sin animo de lucro. <br/> Cada solicitud será evaluada de forma interna por los integrantes del proyecto, para estudiar su viabilidad, adecuación y cumplimiento de los requisitos.
-							</p>
-						</div>
-						<div className="Home__about-image">
-							<img src={AboutImage} />
-						</div>	
+			<section className="box-wrapper">
+				<div className="Home__about">
+					<div className="Home__about-info">
+						<h2>
+							¿Que es el Proyecto Solidus?
+						</h2>
+						<p>
+							El proyecto solidus es una asociación de voluntarios que ofrece, de manera totalmente altruista, servicios de desarrollo web a ONGs, protectoras, etc. que carecen de la financiación para ello. Principalmente buscamos ofrecer servicios con calidad profesional a asociaciones sin animo de lucro. 
+						</p>
 					</div>
+					<div className="Home__about-image">
+						<img src={AboutImage} />
+					</div>	
 				</div>
 			</section>
 
@@ -63,7 +61,6 @@ const Home = () => {
 				</div>
 			</section>
 
-			<ContacForm />
 
 		</React.Fragment>
 

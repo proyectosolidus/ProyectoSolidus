@@ -10,7 +10,7 @@
 
 .box-wrapper {
   display: grid;
-  grid-template-columns: 80vw;
+  grid-template-columns: 90vw;
   justify-content: center;
 }
 

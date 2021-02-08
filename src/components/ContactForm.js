@@ -8,6 +8,7 @@ const useForm = () => {
 			name: '',
 			ongName: '',
 			email: '',
+			webSite: '',
 			emailBody: ''
 		}})
 
@@ -49,6 +50,9 @@ const ContactForm = () => {
 
 					<label for="email">Correo Electronico</label>
 					<input onChange={handleChange} value={formState.form.email} size="25" id="email" type="email" name="email" />
+
+					<label for="webSite">Sitio web</label>
+					<input onChange={handleChange} value={formState.form.webSite} id="webSite" type="text" name="webSite" />
 
 					<label for="emailBody">Cuentanos un poco sobre {formState.form.ongName}</label>
 					<textarea onChange={handleChange} value={formState.form.emailBody} name="emailBody" placeholder={`¿Quien eres, que hace ${formState.form.ongName} y como podemos ayudarles?`} id="emailBody" type="text-area" className="ong-descrption"></textarea>
