@@ -61,6 +61,7 @@ const Home = () => {
 				</div>
 			</section>
 
+			<ContacForm />
 
 		</React.Fragment>
 

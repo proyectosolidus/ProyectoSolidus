@@ -1,15 +1,16 @@
 /*----------- CONTACT ----------- */
 
-.Contact__container {
+.Home__contact {
   border: 3px solid #312c51;
-  display: grid;
-  grid-auto-flow: row;
-  justify-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   padding: 2rem;
   margin-top: 3rem;
 }
 
-.Contact__container h2 {
+.Home__contact h2 {
   padding: .5rem;
   color: #312c51;
   border: 3px solid #312c51;
@@ -19,12 +20,12 @@
   box-shadow: 17px 15px 0px 5px #6C63FF;
 }
 
-.Contact__container p {
+.Home__contact p {
   font-size: 1.2rem;
   text-align: center;
 }
 
-.Contact__container p span {
+.Home__contact p span {
   color: #6C63FF;
   text-decoration: underline;
 }
@@ -57,4 +58,25 @@
 
 input:focus-visible, textarea:focus-visible {
   border: 2px solid #6C63FF;
+}
+
+@media screen and (max-width: 600px) {
+  .Contact-form {
+    width: 100%;
+  }
+
+  .Home__contact h2 {
+    box-shadow: 1px 15px 0px 9px #6C63FF;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .Home__contact {
+    padding: 1rem;
+  }
+
+  .Home__contact p {
+    font-size: 1.1rem;
+    text-align: left;
+  }
 }
