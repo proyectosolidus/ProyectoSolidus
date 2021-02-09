@@ -23,6 +23,7 @@
   border-radius: 5px;
   border: none;
   cursor: pointer;
+  font-size: 1rem;
 }
 
 .secundary-btn {
@@ -34,6 +35,7 @@
   text-decoration: none;
   border-radius: 5px;
   cursor: pointer;
+  font-size: 1rem;
 }
 
 .marg-t {
