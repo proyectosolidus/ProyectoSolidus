@@ -32,7 +32,7 @@ const ContactForm = () => {
 	const {formState, setFormState, handleChange} = useForm()
 
 	return(
-		<div className="box-wrapper">
+		<div id="contacto" className="box-wrapper">
 			<section className="Home__contact">
 				<h2>Contacto</h2>
 				<p>
