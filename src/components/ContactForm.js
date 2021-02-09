@@ -45,16 +45,16 @@ const ContactForm = () => {
 					<label for="name">Nombre</label>
 					<input onChange={handleChange} value={formState.form.name} id="name" type="text" name="name" />
 
-					<label for="">Nombre de la organización</label>
-					<input onChange={handleChange} value={formState.form.ongName} id="" type="text" name="ongName" />
+					<label for="ongName">Nombre de la organización</label>
+					<input onChange={handleChange} value={formState.form.ongName} id="ongName" type="text" name="ongName" />
 
-					<label for="email">Correo Electronico</label>
+					<label for="email">Correo Electrónico</label>
 					<input onChange={handleChange} value={formState.form.email} size="25" id="email" type="email" name="email" />
 
 					<label for="webSite">Sitio web</label>
 					<input onChange={handleChange} value={formState.form.webSite} id="webSite" type="text" name="webSite" />
 
-					<label for="emailBody">Cuentanos un poco sobre {formState.form.ongName}</label>
+					<label for="emailBody">Cuéntanos un poco sobre {formState.form.ongName}</label>
 					<textarea onChange={handleChange} value={formState.form.emailBody} name="emailBody" placeholder={`¿Quien eres, que hace ${formState.form.ongName} y como podemos ayudarles?`} id="emailBody" type="text-area" className="ong-descrption"></textarea>
 
 					<button type="button" className="primary-btn Contact-form-button">ENVIAR</button>

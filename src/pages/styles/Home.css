@@ -52,6 +52,9 @@
 
   .Home__hero-content-buttons {
     margin-bottom: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
   }
 
   .Home__hero-image  {
@@ -62,12 +65,6 @@
 @media screen and (max-width: 699px) {
   .Home__hero-content h1 {
     font-size: 1.8rem;
-  }
-
-  .Home__hero-content-buttons {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
   }
 
   .hero-content-button {
@@ -140,9 +137,11 @@
 
   .Home__about-info h2 {
     box-shadow: 1px 15px 0px 9px #6C63FF;
+    justify-self: center;
   }
 
   .Home__about-info {
+    display: grid;
     grid-row: 1/2;
     grid-column: 1/2;
   }

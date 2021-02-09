@@ -35,10 +35,10 @@ const Home = () => {
 				<div className="Home__about">
 					<div className="Home__about-info">
 						<h2>
-							¿Que es el Proyecto Solidus?
+							¿Qué es el Proyecto Solidus?
 						</h2>
 						<p>
-							El proyecto solidus es una asociación de voluntarios que ofrece, de manera totalmente altruista, servicios de desarrollo web a ONGs, protectoras, etc. que carecen de la financiación para ello. Principalmente buscamos ofrecer servicios con calidad profesional a asociaciones sin animo de lucro. 
+							El proyecto solidus es una asociación de voluntarios que busca ofrecer, de manera totalmente altruista, servicios de desarrollo web con calidad profesional a asociaciones sin ánimo de lucro, que carecen de financiación para ello. 
 						</p>
 					</div>
 					<div className="Home__about-image">

@@ -1,6 +1,6 @@
 .Header {
 	display: flex;
-	padding: .5rem;
+	padding: .5rem .5rem 2rem;
 	align-items: center;
 	justify-content: space-between;
 	background-color: #bee5d3;
@@ -23,10 +23,14 @@
 	color: white;
 }
 
+.Header__nav {
+	gap: 2rem;
+	display: flex;
+}
+
 .Header__nav a {
 	text-decoration: none;
 	font-size: 1.1rem;
-	margin-left: 2rem;
 	color: #312c51;
 }
 
@@ -42,8 +46,7 @@
 	}
 
 	.Header__nav {
-		gap: 2rem;
-		display: flex;
+		
 		margin-top: 1rem;
 	}
 

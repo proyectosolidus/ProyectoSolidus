@@ -10,8 +10,8 @@ const Header = () => {
 				PS
 			</Link>
 			<nav className="Header__nav">
-				<a href="/#acerca">Acerca</a>
-				<a href="/#contacto">Contacto</a>
+				<a href="#acerca">Acerca</a>
+				<a href="#contacto">Contacto</a>
 				<a href="/unirse">Unirse</a>
 			</nav>
 		</header>
