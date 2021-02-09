@@ -10,9 +10,9 @@ const Header = () => {
 				PS
 			</Link>
 			<nav className="Header__nav">
-				<a href="#acerca">Acerca</a>
-				<a href="#contacto">Contacto</a>
-				<a href="/unirse">Unirse</a>
+				<a href="/#acerca">Acerca</a>
+				<a href="/#contacto">Contacto</a>
+				<a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSdvnnTbpeFz1PTkVl5vDIrfWjP-TeDhZGFzpy5aB-d0OzZk5g/viewform">Unirse</a>
 			</nav>
 		</header>
 	)

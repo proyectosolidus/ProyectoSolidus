@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 
 import ContacForm from '../components/ContactForm'
 
@@ -18,8 +17,8 @@ const Home = () => {
 							<h1>Proyecto Solidus <br/>Soluciones para ONG's</h1>
 							<p></p>
 							<div className="Home__hero-content-buttons">
-								<Link to="#contacto" className="hero-content-button primary-btn">Comenzar <b>gratis</b></Link>
-							 	<Link to="#acerca" className="hero-content-button secundary-btn">Acerca</Link>
+								<a href="#contacto" className="hero-content-button primary-btn">Comenzar <b>gratis</b></a>
+							 	<a href="#acerca" className="hero-content-button secundary-btn">Acerca</a>
 							</div>
 						</div>
 						<div className="Home__hero-image">
@@ -31,7 +30,7 @@ const Home = () => {
 			</section>
 			
 
-			<section className="box-wrapper">
+			<section id="acerca" className="box-wrapper">
 				<div className="Home__about">
 					<div className="Home__about-info">
 						<h2>
@@ -55,7 +54,7 @@ const Home = () => {
 							Unetenos y ayudanos a ser mejores
 						</p>
 						<div className="marg-t Home__join-button">
-							<Link to="/unirse" className="primary-btn">Unirse</Link>
+							<a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSdvnnTbpeFz1PTkVl5vDIrfWjP-TeDhZGFzpy5aB-d0OzZk5g/viewform" className="primary-btn">Unirse</a>
 						</div>
 					</div>
 				</div>
