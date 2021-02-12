@@ -36,8 +36,8 @@ const ContactForm = () => {
 			<section className="Home__contact">
 				<h2>Contacto</h2>
 				<p>
-					Cuéntanos sobre tu organización y nosotros <span>te ayudaremos gratis</span> <br/>
-					Una vez que recibamos tu solicitud, esta será evaluada de forma interna por los integrantes del proyecto, para estudiar su viabilidad, adecuación y cumplimiento de los requisitos.
+					Cuéntanos sobre tu organización y desde Solidus <span>te ayudaremos gratis</span> <br/>
+					Una vez que recibamos tu solicitud, esta será evaluada de forma interna por el equipo, para estudiar su viabilidad, adecuación y cumplimiento de los requisitos.
 				</p>
 
 				<form className="Contact-form">
