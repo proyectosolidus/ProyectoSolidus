@@ -43,19 +43,19 @@ const ContactForm = () => {
 				<form className="Contact-form">
 
 					<label for="name">Nombre</label>
-					<input onChange={handleChange} value={formState.form.name} id="name" type="text" name="name" />
+					<input className="contact-input" onChange={handleChange} value={formState.form.name} id="name" type="text" name="name" />
 
 					<label for="ongName">Nombre de la organización</label>
-					<input onChange={handleChange} value={formState.form.ongName} id="ongName" type="text" name="ongName" />
+					<input className="contact-input" onChange={handleChange} value={formState.form.ongName} id="ongName" type="text" name="ongName" />
 
 					<label for="email">Correo Electrónico</label>
-					<input onChange={handleChange} value={formState.form.email} size="25" id="email" type="email" name="email" />
+					<input className="contact-input" onChange={handleChange} value={formState.form.email} size="25" id="email" type="email" name="email" />
 
 					<label for="webSite">Sitio web</label>
-					<input onChange={handleChange} value={formState.form.webSite} id="webSite" type="text" name="webSite" />
+					<input className="contact-input" onChange={handleChange} value={formState.form.webSite} id="webSite" type="text" name="webSite" />
 
 					<label for="emailBody">Cuéntanos un poco sobre {formState.form.ongName}</label>
-					<textarea onChange={handleChange} value={formState.form.emailBody} name="emailBody" placeholder={`¿Quien eres, que hace ${formState.form.ongName} y como podemos ayudarles?`} id="emailBody" type="text-area" className="ong-descrption"></textarea>
+					<textarea onChange={handleChange} value={formState.form.emailBody} name="emailBody" placeholder={`¿Quien eres, que hace ${formState.form.ongName} y como podemos ayudarles?`} id="emailBody" type="text-area" className="contact-input ong-descrption"></textarea>
 
 					<button type="button" className="primary-btn Contact-form-button">ENVIAR</button>
 

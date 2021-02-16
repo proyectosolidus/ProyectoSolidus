@@ -9,7 +9,7 @@
   background-color: #bee5d3;
   display: grid;
   grid-template-columns: 2fr 40%;
-  height: 90vh;
+  height: calc(100vh - 4rem);
 }
 
 .Home__hero-content h1 {
