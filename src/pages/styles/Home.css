@@ -21,7 +21,11 @@
   margin-top: 2rem;
 }
 
-.Home__hero-content-buttons b {
+.hero-contact-button {
+  margin-right: 1rem;
+}
+
+.hero-contact-button b {
   color: white;
 }
 

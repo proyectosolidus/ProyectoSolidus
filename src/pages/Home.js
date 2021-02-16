@@ -17,8 +17,8 @@ const Home = () => {
 							<h1>Proyecto Solidus <br/>Soluciones para ONG's</h1>
 							<p></p>
 							<div className="Home__hero-content-buttons">
-								<a href="#contacto" className="hero-content-button primary-btn">Comenzar <b>gratis</b></a>
-							 	<a href="#acerca" className="hero-content-button secundary-btn">Acerca</a>
+								<a href="#contacto" className="hero-contact-button primary-btn">Comenzar <b>gratis</b></a>
+							 	<a href="#acerca" className="secundary-btn">Acerca</a>
 							</div>
 						</div>
 						<div className="Home__hero-image">
