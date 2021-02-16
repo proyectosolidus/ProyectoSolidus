@@ -51,7 +51,7 @@ const Home = () => {
 					<div className="Home__join_container">
 						<h2>Se parte del Proyecto Solidus</h2>
 						<p>
-							Unetenos y ayudanos a ser mejores
+							Únete y ayúdanos a ser mejores
 						</p>
 						<div className="marg-t Home__join-button">
 							<a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSdvnnTbpeFz1PTkVl5vDIrfWjP-TeDhZGFzpy5aB-d0OzZk5g/viewform" className="primary-btn">Unirse</a>
