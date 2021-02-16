@@ -1,14 +1,15 @@
 .Header {
 	display: flex;
-	padding: .5rem .5rem 2rem;
+	height: 4rem;
+	padding: 0 4rem 0 1rem;
 	align-items: center;
 	justify-content: space-between;
 	background-color: #bee5d3;
 }
 
 .Header__home {
-	width: 4rem;
-	height: 4rem;
+	width: 3rem;
+	height: 3rem;
 	padding: 1rem;
 	border-radius: 100px;
 	display: flex;
@@ -43,10 +44,11 @@
 		flex-direction: column;
 		align-items: center;
 		justify-content: center;
+		height: auto;
+		padding: 1rem 0 2rem;
 	}
 
 	.Header__nav {
-		
 		margin-top: 1rem;
 	}
 
