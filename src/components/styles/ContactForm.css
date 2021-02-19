@@ -1,0 +1,88 @@
+/*----------- CONTACT ----------- */
+
+.Home__contact {
+  border: 3px solid #312c51;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  margin-top: 3rem;
+}
+
+.Home__contact h2 {
+  padding: .5rem;
+  color: #312c51;
+  border: 3px solid #312c51;
+  width: max-content;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  box-shadow: 17px 15px 0px 5px #6C63FF;
+}
+
+.Home__contact p {
+  font-size: 1.2rem;
+  width: 65%;
+  margin: 1rem 0 2rem;
+}
+
+.Home__contact p span {
+  color: #6C63FF;
+  text-decoration: underline;
+}
+
+.ong-descrption {
+  min-height: 150px;
+  box-sizing: border-box;
+  padding: 1rem;
+  resize: vertical;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+
+.Contact-form-button {
+  width: 100%;
+  outline: none;
+}
+
+.Contact-form input {
+  padding: .5rem;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+
+.Contact-form {
+  margin-top: 1rem;
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.contact-input:focus-visible,  .contact-input:focus-visible {
+  border: 2px solid #6C63FF;
+  outline: none;
+}
+
+@media screen and (max-width: 600px) {
+  .Contact-form, 
+  .Home__contact p {
+    width: 100%;
+  }
+  
+  .Home__contact {
+    padding: 1rem;
+  }
+
+  .Home__contact h2 {
+    box-shadow: 1px 15px 0px 9px #6C63FF;
+  }
+}
+
+@media screen and (max-width: 500px) {
+
+  .Home__contact p {
+    font-size: 1.1rem;
+    text-align: left;
+  }
+}

@@ -11,6 +11,7 @@ Actualmente, al encontrarnos en los pasos iniciales, buscamos todo tipo de perfi
 Puede que tengas más experiencia pero menor disponibilidad, por lo que podrías ayudar resolviendo dudas, asesorando o mentorizando, o menos experiencia y mayor disponibilidad. Sea cual sea tu perfil, nos gustaría saber de ti a través de [este formulario](https://docs.google.com/forms/d/e/1FAIpQLSdvnnTbpeFz1PTkVl5vDIrfWjP-TeDhZGFzpy5aB-d0OzZk5g/viewform).
 
 ## Herramientas y requisitos
+[Lee: LANDING PAGE](https://github.com/proyectosolidus/ProyectoSolidus/blob/main/LANDING_PAGE.md)
 ## Enlaces de interés
 Una vez rellenes el formulario se te enviará una invitación a nuestro grupo de Slack donde encontrarás varios enlaces relevantes. Mientras tanto, dado que usamos GitHub como plataforma de colaboración y desarrollo, puedes leer las [guías de GitHub](https://guides.github.com/).
 Por otro lado, se espera de todos los colaboradores respetar en todo momento el [Código de Conducta](https://github.com/proyectosolidus/ProyectoSolidus/blob/main/CODE_OF_CONDUCT.md) y seguir la [Guía de Contribución](https://github.com/proyectosolidus/ProyectoSolidus/blob/main/CONTRIBUTION_GUIDE.md)
